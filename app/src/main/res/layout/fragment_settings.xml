@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="indiana.edu.volumeprofilemanager.frgSettings">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/label_load_device"
+            android:id="@+id/textView"
+            android:textSize="15dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/color_black" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerBoot"
+                android:layout_gravity="right|center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/label_startup"
+                android:id="@+id/textView1"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/color_black" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner35mm"
+                android:layout_gravity="right|center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/label_3.5profile"
+                android:id="@+id/textView2"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/color_black" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerBluetooth"
+                android:layout_gravity="right|center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/label_BluetoothProf"
+                android:id="@+id/textView3"
+                android:layout_gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/color_black" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <!-- This isn't necessary when programmatically setting the profiles -->
+            <!--<CheckBox-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/checkBox"-->
+                <!--android:layout_gravity="left|center_vertical"-->
+                <!--android:text="@string/label_disable_warning" />-->
+
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

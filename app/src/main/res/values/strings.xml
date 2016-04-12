@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Volume Profile Manager</string>
+
+    <string name="label_prof_name">Profile Name:</string>
+    <string name="label_ringtone">Ringtone</string>
+    <string name="label_media">Media</string>
+    <string name="label_alarm">Alarm</string>
+    <string name="label_in_call">In Call</string>
+    <string name="label_notifications">Notifications</string>
+    <string name="label_system">System</string>
+    <string name="label_vibration">Vibration Intensity</string>
+    <string name="label_apply">Apply</string>
+    <string name="label_save">Save</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_add_profile">Add Profile</string>
+    <string name="label_new_rule">New Rule</string>
+    <string name="label_startup">Device boots:</string>
+    <string name="label_3.5profile">Aux plugged in:</string>
+    <string name="label_BluetoothProf">Bluetooth connected:</string>
+    <string name="label_disable_warning">Disable high volume warning</string>
+    <string name="label_load_device">Load Profile when</string>
+    <string name="label_define_profile">Define Profile</string>
+    <string name="label_add_rule">Add Rule</string>
+    <string name="label_name">Name</string>
+    <string name="label_time">Time</string>
+    <string name="label_apply_to_all">Add rule to everyday</string>
+    <string name="label_apply_to_weekdays">Add rule to weekdays</string>
+    <string name="label_vibrate">Vibrate</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profiles">ProfilesActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_act_define_profile">actDefineProfile</string>
+    <string name="title_activity_act_add_rule">actAddRule</string>
+</resources>

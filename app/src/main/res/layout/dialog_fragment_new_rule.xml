@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="indiana.edu.volumeprofilemanager.dlgNewRule">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/label_name"
+            android:id="@+id/textView4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRuleName"
+            android:singleLine="true"
+            android:imeOptions="actionNext" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/label_time"
+            android:id="@+id/textView5"
+            android:paddingTop="6dp"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true">
+            <!--android:gravity="bottom"-->
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/txtRuleTime"
+                android:layout_weight="1"/>
+
+            <ToggleButton
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:id="@+id/tglAM"
+                android:layout_gravity="right"
+                android:textOff="AM"
+                android:textOn="PM" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="17dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This day"
+                android:id="@+id/radioButton"
+                android:checked="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weekdays"
+                android:id="@+id/radioButton2" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Everyday"
+                android:id="@+id/radioButton3" />
+        </RadioGroup>
+
+    </LinearLayout>
+</FrameLayout>
